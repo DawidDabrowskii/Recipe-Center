@@ -7,8 +7,10 @@
 
   &__title {
     margin-left: 4rem;
-    height: 4.6rem;
     display: block;
+    font-size: 3rem;
+    color: $color-grad-1;
+    border-bottom: 1px solid $color-grad-1;
   }
 }
 
