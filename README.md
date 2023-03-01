@@ -1,2 +1,2 @@
 # Recipe-Center
-Your personal Recipe Center
+Link for project https://recipe-center.netlify.app/
