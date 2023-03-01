@@ -6,11 +6,13 @@
   justify-content: space-between;
 
   &__title {
-    margin-left: 4rem;
     display: block;
     font-size: 3rem;
-    color: $color-grad-1;
-    border-bottom: 1px solid $color-grad-1;
+    color: $color-grad-2;
+
+    @media only screen and (max-width: $bp-large) {
+      display: none;
+    }
   }
 }
 
@@ -21,6 +23,10 @@
   align-items: center;
   padding-left: 3rem;
   transition: all 0.3s;
+
+  @media only screen and (max-width: $bp-medium-small) {
+    margin-left: 3rem;
+  }
 
   &:focus-within {
     transform: translateY(-2px);
